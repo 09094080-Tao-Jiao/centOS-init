@@ -1,0 +1,21 @@
+[Aliyun_7_base]
+name=source_from_localserver
+baseurl=http://172.20.166.200/CentOS-YUM/Aliyun/version_7-1708/64bit/base/Packages
+gpgcheck=0
+enable=1
+priority=1 #这里的priority就是上面安装的优先级工具，设定从小到大
+
+[Aliyun_7_extras]
+name=source_from_localserver
+baseurl=http://172.20.166.200/CentOS-YUM/Aliyun/version_7-1708/64bit/extras/Packages
+gpgcheck=0
+enable=1
+priority=2
+
+[Aliyun_7_updates]
+name=source_from_localserver
+baseurl=http://172.20.166.200/CentOS-YUM/Aliyun/version_7-1708/64bit/updates/Packages
+gpgcheck=0
+enable=1
+priority=3
+
